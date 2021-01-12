@@ -11,3 +11,44 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.bg-darkgray {
+  background-color: rgb(37, 37, 37);
+}
+
+.traffic-light-support {
+  width: 10px;
+  height: 20px;
+}
+.traffic-light-body {
+  display: flex;
+  flex-direction: column;
+  width: 70px;
+  height: 170px;
+  border-radius: 20px;
+}
+.traffic-light-circles {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+}
+
+.light-red-off {
+  background-color: rgb(100, 0, 0);
+}
+.light-yellow-off {
+  background-color: rgb(99, 97, 0);
+}
+.light-green-off {
+  background-color: rgb(0, 99, 0);
+}
+
+.light-red-on {
+  background-color: rgb(255, 0, 0);
+}
+.light-yellow-on {
+  background-color: rgb(255, 251, 0);
+}
+.light-green-on {
+  background-color: rgb(0, 255, 0);
+}
